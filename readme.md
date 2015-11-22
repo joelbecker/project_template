@@ -14,7 +14,7 @@ pandoc --filter pandoc-citeproc --template article.tex  example.md -o example.pd
 # Cloning this template
 To clone this template, use the following commands.
 ```bash
-cd ~/path
-mkdir dir_name
+cd ~/parent_directory
 git clone https://github.com/JBWBecker/progress_report_template.git
 ```
+Don't make a new project folder. To avoid nesting just change the name of the cloned directory.
